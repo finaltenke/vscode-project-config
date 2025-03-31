@@ -1,0 +1,46 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "app (MacOS)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/main.dart",
+                "-d",
+                "macos",
+                "--dart-define=APP_VENDOR=vd001",
+                "--dart-define=APP_ENV=uat",
+            ]
+        },
+        {
+            "name": "app (MacOS) (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "args": [
+                "-t",
+                "lib/main.dart",
+                "-d",
+                "macos",
+                "--dart-define=APP_VENDOR=vd001",
+                "--dart-define=APP_ENV=uat",
+            ]
+        },
+        {
+            "name": "app (MacOS) (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "args": [
+                "-t",
+                "lib/main.dart",
+                "-d",
+                "macos",
+                "--dart-define=APP_VENDOR=vd001",
+                "--dart-define=APP_ENV=uat",
+            ]
+        },
+    ]
+}

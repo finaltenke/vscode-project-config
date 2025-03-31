@@ -1,0 +1,51 @@
+{
+    "dart.flutterSdkPath": ".fvm/versions/3.24.4",
+    "dart.sdkPath": ".fvm/versions/3.24.4",
+    "dart.lineLength": 120,
+    "dart.showTodos": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": false,
+        "editor.rulers": [
+            120
+        ],
+        "editor.selectionHighlight": true,
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "search.exclude": {
+        "**/.fvm": true,
+        "**/*.s.dart": false,
+        "**/*.freezed.dart": true,
+        "**/*.g.dart": true
+    },
+    "files.watcherExclude": {
+        "**/.fvm": true,
+        "**/*.s.dart": true,
+        "**/*.freezed.dart": true,
+        "**/*.g.dart": true,
+        "**/*.mock.dart": true
+    },
+    "files.exclude": {
+        "**/*.mock.dart": true
+    },
+    "editor.codeActionsOnSave": {
+        "editor.formatOnSave": "explicit",
+        "source.organizeImports": "explicit",
+        "source.sortImports": "explicit",
+        "source.fixAll": "explicit"
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "pubspec.yaml": ".metadata, pubspec.lock, analysis_options.yaml, .flutter-plugins, .flutter-plugins-dependencies",
+        "*.dart": "$(capture).g.dart, $(capture).freezed.dart, $(capture).widgetbook.dart, $(capture).s.dart"
+    },
+    "editor.wordWrapColumn": 120,
+    "workbench.tree.indent": 15,
+    "github.copilot.chat.codeGeneration.instructions": [
+        {
+            "file": "copilot-instructions.md"
+        }
+    ]
+}

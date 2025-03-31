@@ -1,0 +1,19 @@
+{
+    "File Name Transformations": {
+        "prefix": "fnt",
+        "body": [
+            "// 原始檔名: ${TM_FILENAME}",
+            "// 提取基礎名稱: ${TM_FILENAME/^([0-9a-zA-Z_]+).*$/${1}/}",
+            "// PascalCase 轉換: ${1:/pascalcase}",
+            "// camelCase 轉換: ${1:/camelcase}",
+            "",
+            "// 使用範例:",
+            "class ${1:/pascalcase} {",
+            "  final String ${1:/camelcase};",
+            "  ",
+            "  ${1:/pascalcase}({required this.${1:/camelcase}});",
+            "}"
+        ],
+        "description": "展示檔名轉換的範例"
+    }
+}
